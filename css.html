@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Static example of todo app</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <!-- start of wrapped navbar -->
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false"><img src="images/navicon.svg"></button>
+
+          <a class="navbar-brand" href="index.html">TODO</a>
+
+        </div> <!-- end of hidden navbar -->
+
+        <!-- start of unwrapped navbar -->
+        <div class="collapse navbar-collapse" id="main_navbar">
+          <ul class="nav navbar-nav"> <!-- menu list -->
+            <li><a href="index.html">ToDos</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul> <!-- end of menu list -->
+        </div> <!-- end of unwrapped navbar -->
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>List of todos</h1>
+
+      <!-- start of breadcrumb -->
+      <ol class="breadcrumb">
+        <li><a href="index.html">ToDos</a></li>
+        <li><a href="css.html">learn Bootstrap CSS</a></li>
+      </ol> <!-- end of breadcrumb -->
+
+      <div class="container">
+        <h3>Title</h3>
+        <p>Bootstrap CSS</p>
+
+        <h3>Description</h3>
+        <p>Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.</p>
+
+        <h3>Person</h3>
+        <p>Farid Karimov</p>
+
+        <h3>More</h3>
+        <p><a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)">https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)</a></p>
+      </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Static example of todo app</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <!-- start of wrapped navbar -->
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false"><img src="images/navicon.svg"></button>
+
+          <a class="navbar-brand" href="index.html">TODO</a>
+
+        </div> <!-- end of hidden navbar -->
+
+        <!-- start of unwrapped navbar -->
+        <div class="collapse navbar-collapse" id="main_navbar">
+          <ul class="nav navbar-nav"> <!-- menu list -->
+            <li><a href="index.html">ToDos</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul> <!-- end of menu list -->
+        </div> <!-- end of unwrapped navbar -->
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>List of todos</h1>
+
+      <!-- start of breadcrumb -->
+      <ol class="breadcrumb">
+        <li><a href="index.html">ToDos</a></li>
+        <li><a href="css.html">learn Python</a></li>
+      </ol> <!-- end of breadcrumb -->
+
+      <div class="container">
+        <h3>Title</h3>
+        <p>Python</p>
+
+        <h3>Description</h3>
+        <p>Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than possible in languages such as C++ or Java. The language provides constructs intended to enable clear programs on both a small and large scale.
+        Python supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles. It features a dynamic type system and automatic memory management and has a large and comprehensive standard library.</p>
+
+        <h3>Person</h3>
+        <p>Farid Karimov</p>
+
+        <h3>More</h3>
+        <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
+      </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

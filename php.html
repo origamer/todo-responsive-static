@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Static example of todo app</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <!-- start of wrapped navbar -->
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false"><img src="images/navicon.svg"></button>
+
+          <a class="navbar-brand" href="index.html">TODO</a>
+
+        </div> <!-- end of hidden navbar -->
+
+        <!-- start of unwrapped navbar -->
+        <div class="collapse navbar-collapse" id="main_navbar">
+          <ul class="nav navbar-nav"> <!-- menu list -->
+            <li><a href="index.html">ToDos</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul> <!-- end of menu list -->
+        </div> <!-- end of unwrapped navbar -->
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>List of todos</h1>
+
+      <!-- start of breadcrumb -->
+      <ol class="breadcrumb">
+        <li><a href="index.html">ToDos</a></li>
+        <li><a href="php.html">learn PHP</a></li>
+      </ol> <!-- end of breadcrumb -->
+
+      <div class="container">
+        <h3>Title</h3>
+        <p>PHP</p>
+
+        <h3>Description</h3>
+        <p>PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. Originally created by Rasmus Lerdorf in 1994,the PHP reference implementation is now produced by The PHP Group.PHP originally stood for Personal Home Page,but it now stands for the recursive backronym PHP: Hypertext Preprocessor.
+
+        PHP code may be embedded into HTML code, or it can be used in combination with various web template systems, web content management systems and web frameworks. PHP code is usually processed by a PHP interpreter implemented as a module in the web server or as a Common Gateway Interface (CGI) executable. The web server combines the results of the interpreted and executed PHP code, which may be any type of data, including images, with the generated web page. PHP code may also be executed with a command-line interface (CLI) and can be used to implement standalone graphical applications.</p>
+
+        <h3>Person</h3>
+        <p>Farid Karimov</p>
+
+        <h3>More</h3>
+        <p><a href="https://ru.wikipedia.org/wiki/PHP">https://ru.wikipedia.org/wiki/PHP</a></p>
+      </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

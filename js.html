@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Static example of todo app</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <!-- start of wrapped navbar -->
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false"><img src="images/navicon.svg"></button>
+
+          <a class="navbar-brand" href="index.html">TODO</a>
+
+        </div> <!-- end of hidden navbar -->
+
+        <!-- start of unwrapped navbar -->
+        <div class="collapse navbar-collapse" id="main_navbar">
+          <ul class="nav navbar-nav"> <!-- menu list -->
+            <li><a href="index.html">ToDos</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul> <!-- end of menu list -->
+        </div> <!-- end of unwrapped navbar -->
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>List of todos</h1>
+
+      <!-- start of breadcrumb -->
+      <ol class="breadcrumb">
+        <li><a href="index.html">ToDos</a></li>
+        <li><a href="js.html">learn AngularJS, jQuery</a></li>
+      </ol> <!-- end of breadcrumb -->
+
+      <div class="container">
+        <h3>Title</h3>
+        <p>AngularJS, jQuery</p>
+
+        <h3>Description</h3>
+        <p>AngularJS (commonly referred to as "Angular" or "Angular.js") is a complete JavaScript-based open-source client and server-side web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. The JavaScript components complement PhoneGap, the framework used for developing cross-platform mobile apps. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications.</p>
+
+        <p>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. jQuery is the most popular JavaScript library in use today, with installation on 65% of the top 10 million highest-trafficked sites on the Web. jQuery is free, open-source software licensed under the MIT License.</p>
+
+        <h3>Person</h3>
+        <p>Farid Karimov</p>
+
+        <h3>More</h3>
+        <p><a href="https://en.wikipedia.org/wiki/AngularJS">https://en.wikipedia.org/wiki/AngularJS</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/JQuery">https://en.wikipedia.org/wiki/JQuery</a></p>
+      </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

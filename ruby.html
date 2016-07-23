@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Static example of todo app</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <!-- start of wrapped navbar -->
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false"><img src="images/navicon.svg"></button>
+
+          <a class="navbar-brand" href="index.html">TODO</a>
+
+        </div> <!-- end of hidden navbar -->
+
+        <!-- start of unwrapped navbar -->
+        <div class="collapse navbar-collapse" id="main_navbar">
+          <ul class="nav navbar-nav"> <!-- menu list -->
+            <li><a href="index.html">ToDos</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul> <!-- end of menu list -->
+        </div> <!-- end of unwrapped navbar -->
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>List of todos</h1>
+
+      <!-- start of breadcrumb -->
+      <ol class="breadcrumb">
+        <li><a href="index.html">ToDos</a></li>
+        <li><a href="ruby.html">learn Ruby on Rails</a></li>
+      </ol> <!-- end of breadcrumb -->
+
+      <div class="container">
+        <h3>Title</h3>
+        <p>Ruby on Rails</p>
+
+        <h3>Description</h3>
+        <p>Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
+        According to its creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp. It supports multiple programming paradigms, including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management.</p>
+
+        <p>Ruby on Rails, or simply Rails, is a web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer, and HTML, CSS and JavaScript for display and user interfacing. In addition to MVC, Rails emphasizes the use of other well-known software engineering patterns and paradigms, including convention over configuration (CoC), don't repeat yourself (DRY), and the active record pattern.</p>
+
+        <h3>Person</h3>
+        <p>Farid Karimov</p>
+
+        <h3>More</h3>
+        <p><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">https://en.wikipedia.org/wiki/Ruby_(programming_language)</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/Ruby_on_Rails">https://en.wikipedia.org/wiki/Ruby_on_Rails</a></p>
+      </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

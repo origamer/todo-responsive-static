@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Static example of todo list app</title>
+
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/styles.css" rel="stylesheet">
+
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+   <![endif]-->
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <!-- start of wrapped navbar -->
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false"><img src="images/navicon.svg"></button>
+
+          <a class="navbar-brand" href="index.html">TODO</a>
+
+        </div> <!-- end of hidden navbar -->
+
+        <!-- start of unwrapped navbar -->
+        <div class="collapse navbar-collapse" id="main_navbar">
+          <ul class="nav navbar-nav"> <!-- menu list -->
+            <li class="active"><a href="index.html">ToDos</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul> <!-- end of menu list -->
+        </div> <!-- end of unwrapped navbar -->
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>List of todos</h1>
+
+      <!-- start of breadcrumb -->
+      <ol class="breadcrumb">
+        <li><a href="index.html">ToDos</a></li>
+      </ol> <!-- end of breadcrumb -->
+
+      <div class="row">
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <a href="csharp.html"><li>learn C# ASP.NET MVC</li></a>
+              <button type="button" class="btn btn-warning">Not finished</button>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <a href="ruby.html"><li>learn Ruby on Rails</li></a>
+              <button type="button" class="btn btn-success">Finished</button>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <a href="js.html"><li>learn AngularJS, jQuery</li></a>
+              <button type="button" class="btn btn-warning">Not finished</button>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <a href="css.html"><li>learn Bootstrap CSS</li></a>
+              <button type="button" class="btn btn-success">Finished</button>
+            </div><div class="clearfix"></div> <!-- fixing problem of space between list items -->
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <a href="python.html"><li>learn Python</li></a>
+              <button type="button" class="btn btn-warning">Not finished</button>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <a href="node.html"><li>learn Node.js</li></a>
+              <button type="button" class="btn btn-warning">Not finished</button>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <a href="php.html"><li>learn PHP</li></a>
+              <button type="button" class="btn btn-warning">Not finished</button>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <a href="english.html"><li>learn English</li></a>
+              <button type="button" class="btn btn-success">Finished</button>
+            </div><div class="clearfix"></div>
+
+      </div> <!-- row -->
+
+    </div> <!-- container -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

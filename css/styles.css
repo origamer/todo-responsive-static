@@ -1,0 +1,63 @@
+/* Item of list */
+div.row  li {
+	border: 4px solid black;
+	padding: 6px;
+	margin: 2px;
+	background-color: grey;
+	color: white;
+}
+
+/* Item of list hover */
+div.row  li:hover {
+	background-color: indianred;
+}
+
+/* Off default link style */
+div.col-lg-3 a {
+	text-decoration: none;
+	margin-right: 2px; /* some space after button (status) */
+}
+div.col-lg-3 a:hover {
+	text-decoration: none;
+}
+
+/* Changing default styles of navar */
+.navbar-default {
+    background-color: indianred;
+    border-color: indianred;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffcccc;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #800000;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #800000;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: white;
+    background-color: #800000;
+}
+
+/* CSS styles for mobile devices */
+.navbar-default .navbar-toggle {
+    border-color: #ffcccc;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ffcccc;
+}
